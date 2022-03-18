@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bootstrap Example</title>
+    <title>Sopranos Clip App</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,300;1,600&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="mystyles.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-light">
         <div class="container-fluid">
           <div class="navbar-header">
             <a class="navbar-brand" href="#">Sopranos</a>
@@ -32,7 +40,9 @@
         <div class="container">
           <div class="row">
             <div class="col text-center">
-              <h1 id="quote">"Hello Rat!!!!!"</h1>
+              <h1 id="quote" class="border border-danger quote">
+                "Hello Rat!!!!!"
+              </h1>
             </div>
           </div>
         </div>
@@ -47,7 +57,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <button class="btn btn-default" id="bouton">next clip</button>
+            <button type="button" class="btn btn-danger btn-lg">Dark</button>
           </div>
         </div>
       </div>

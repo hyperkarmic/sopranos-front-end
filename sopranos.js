@@ -26,7 +26,7 @@ const fetchUsers = async () => {
           src='https://www.youtube.com/embed/${video0}'
           allowfullscreen
         ></iframe>`
-      quote.innerHTML = `<h1>${quote0}</h1>`
+      quote.innerHTML = `<h1 class="border p-2 border-primary">${quote0}</h1>`
     })
 
   let button = document.getElementById('bouton')

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,300;1,600&display=swap');
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Pacifico', cursive;
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Pacifico', cursive;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+.quote {
+  border: 3px;
+  border-color: grey;
+  border-style: dashed;
+}
